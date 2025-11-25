@@ -8,3 +8,18 @@ p {
 #aj {
     font-weight: bold;
 }
+div{
+    height: 200px;
+    width: 200px;
+    background-color: red;
+    text align: center;
+    align content : center;
+    margin: 100px;
+    border: 2px solid red;
+    padding: 10px;
+    
+}
+
+.jk {
+    display: flex;
+}
