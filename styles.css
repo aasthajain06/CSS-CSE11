@@ -1,25 +1,39 @@
-h1 {
-    color: green;
-}
-p {
-    color: blue;
-    text align : center;
-}
-#aj {
-    font-weight: bold;
-}
-div{
-    height: 200px;
-    width: 200px;
-    background-color: red;
-    text align: center;
-    align content : center;
-    margin: 100px;
-    border: 2px solid red;
-    padding: 10px;
-    
-}
+    /* h1 {
+        color: green;
+    }
+    p {
+        color: blue;
+        text align : center;
+    }
+    #aj {
+        font-weight: bold;
+    }
+    div{
+        height: 200px;
+        width: 200px;
+        background-color: red;
+        text align: center;
+        align content : center;
+        margin: 100px;
+        border: 2px solid red;
+        padding: 10px;
+        
+    }
 
-.jk {
+    .jk {
+        display: flex;
+    } */
+.container {
     display: flex;
+    height: 100vh;
+    width: 100%; ;
+    background-color: aqua;
+    flex-direction: row-reverse;
+}
+.item {
+    background-color: coral;
+    height: 100px;
+    width: 100px;
+    text-align: center;
+    flex: 1;
 }
