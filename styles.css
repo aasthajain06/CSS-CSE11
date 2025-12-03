@@ -63,7 +63,10 @@
     column-gap: 10px;
     justify-items: center;
     align-items: center;
-    }
+    justify-content: space-around;
+    align-content: space-around;
+    grid-auto-columns: 60px;
+}
 
 .grid-item{
     background-color: coral;
@@ -73,4 +76,4 @@
     text-align: center;
     align-content: center;
     grid-area: auto;
-}
+} 
