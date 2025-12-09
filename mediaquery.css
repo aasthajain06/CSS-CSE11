@@ -1,0 +1,47 @@
+body{
+    margin: 0;
+    font-family: "Georgia", serif;
+    background-color: #f5f5f5;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: "solid black";
+    padding: 1rem;
+}
+logo{ color: #000;
+    font: 1em sans-serif;
+}
+.menu{
+    display: none;
+    flex-direction: column;
+    background-color: aqua;
+    position: absolute;
+    top: 60px;
+    right: 10px;
+    width: 150px;
+}
+.menu a{
+    color: white;
+    padding: 1rem;
+    text-decoration: none;
+    display: block;
+}
+.hamburger{
+    font-size: 2rem;
+    cursor: pointer;
+    color: white;
+}
+@media (min-width: 768px){
+    .menu{
+        display: flex;
+        flex-direction: row;
+        position: static;
+        background-color:none;
+        width: auto;
+    }
+    .hamburger{
+        display: none;
+    }
+}
